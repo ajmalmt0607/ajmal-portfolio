@@ -1,6 +1,7 @@
 'use client'
 
 import { Mail, Phone, Calendar, MapPin, Computer } from 'lucide-react'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { profileData } from '@/lib/portfolio-data'
 
 export default function ProfileSidebar({ data = profileData }) {
@@ -94,24 +95,6 @@ export default function ProfileSidebar({ data = profileData }) {
 
       {/* Social Links */}
       <div className="flex items-center justify-center gap-4 mt-4 md:mt-6 pt-4 md:pt-6 border-t border-border">
-        
-        <a
-          href={data.social?.github}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="w-10 h-10 rounded-lg bg-secondary hover:bg-accent hover:text-accent-foreground transition-colors flex items-center justify-center"
-        >
-          <Computer className="w-5 h-5 text-blue-500" />
-        </a>
-
-        <a
-          href={data.social?.twitter}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="w-10 h-10 rounded-lg bg-secondary hover:bg-accent hover:text-accent-foreground transition-colors flex items-center justify-center"
-        >
-          <Computer className="w-5 h-5 text-blue-500" />
-        </a>
 
         <a
           href={data.social?.instagram}
@@ -119,7 +102,16 @@ export default function ProfileSidebar({ data = profileData }) {
           rel="noopener noreferrer"
           className="w-10 h-10 rounded-lg bg-secondary hover:bg-accent hover:text-accent-foreground transition-colors flex items-center justify-center"
         >
-          <Computer className="w-5 h-5" />
+          <FaLinkedin className="w-5 h-5 text-blue-500" />
+        </a>
+
+        <a
+          href={data.social?.github}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-10 h-10 rounded-lg bg-secondary hover:bg-accent hover:text-accent-foreground transition-colors flex items-center justify-center"
+        >
+          <FaGithub className="w-5 h-5 text-blue-500" />
         </a>
 
       </div>

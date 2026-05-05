@@ -1,6 +1,6 @@
 'use client'
 
-import { PenTool, Code, Smartphone, Zap } from 'lucide-react'
+import { PenTool, Code, Smartphone, Zap, Rocket } from 'lucide-react'
 import { aboutData } from '@/lib/portfolio-data'
 
 const iconMap = {
@@ -8,6 +8,7 @@ const iconMap = {
   Zap,
   Smartphone,
   PenTool,
+  Rocket
 }
 
 export default function AboutSection({ data = aboutData }) {
@@ -69,7 +70,7 @@ export default function AboutSection({ data = aboutData }) {
       </div>
 
       {/* Testimonials */}
-      <div>
+      {/* <div>
         <h3 className="text-xl md:text-2xl font-bold text-foreground mb-6">
           Testimonials
         </h3>
@@ -97,10 +98,10 @@ export default function AboutSection({ data = aboutData }) {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
 
       {/* Clients */}
-      <div>
+      {/* <div>
         <h3 className="text-xl md:text-2xl font-bold text-foreground mb-6">
           Clients
         </h3>
@@ -119,7 +120,7 @@ export default function AboutSection({ data = aboutData }) {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
 
     </div>
   )

@@ -1,9 +1,9 @@
 export const profileData = {
-  name: 'John Doe',
+  name: 'Mohammed Ajmal',
   title: 'Full-Stack Developer',
   avatar: '/ajmal-dev.png',
   email: 'ajmalmt67@gmail.com',
-  phone: '+1 (234) 567-890',
+  phone: '+91 8593986435',
   birthday: 'July 06, 1999',
   location: 'Dubai, UAE',
   social: {
@@ -22,23 +22,19 @@ export const aboutData = {
     {
       icon: 'Code',
       title: 'Frontend Development',
-      description: 'Building modern, responsive web applications with React, Next.js, and TypeScript.',
+      description: 'Building modern, responsive web applications with React, Next.js, and Tailwindcss.',
     },
     {
       icon: 'Zap',
       title: 'Backend Development',
-      description: 'Creating robust APIs and server-side solutions with Node.js and modern frameworks.',
+      description: 'Building scalable APIs and backend systems using Django REST Framework and FastAPI, focusing on clean architecture.',
     },
     {
-      icon: 'Smartphone',
-      title: 'Mobile Development',
-      description: 'Professional development of mobile applications with React Native and modern tools.',
-    },
-    {
-      icon: 'PenTool',
-      title: 'UI/UX Design',
-      description: 'Designing intuitive and beautiful user interfaces that enhance user experience.',
-    },
+      icon: 'Rocket',
+      title: 'Cloud & Deployment',
+      description: 'Deploying applications using AWS EC2, ECS, S3 and modern DevOps practices.',
+    }
+
   ],
   testimonials: [
     {
