@@ -18,9 +18,9 @@ export default function ThemeToggle() {
       className="w-12 h-12 rounded-xl bg-card border border-border flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-colors shadow-lg"
     >
       {theme === 'dark' ? (
-        <Sun className="w-5 h-5 text-accent" />
+        <Sun className="w-5 h-5 text-blue-500" />
       ) : (
-        <Moon className="w-5 h-5 text-accent" />
+        <Moon className="w-5 h-5 text-blue-500" />
       )}
     </button>
   )

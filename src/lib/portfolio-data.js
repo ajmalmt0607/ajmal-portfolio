@@ -1,11 +1,11 @@
 export const profileData = {
   name: 'John Doe',
   title: 'Full-Stack Developer',
-  avatar: '/professional-developer-avatar.png',
-  email: 'john@example.com',
+  avatar: '/ajmal-dev.png',
+  email: 'ajmalmt67@gmail.com',
   phone: '+1 (234) 567-890',
-  birthday: 'June 15, 1995',
-  location: 'San Francisco, California, USA',
+  birthday: 'July 06, 1999',
+  location: 'Dubai, UAE',
   social: {
     github: 'https://github.com/johndoe',
     twitter: 'https://twitter.com/johndoe',
